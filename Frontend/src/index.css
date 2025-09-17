@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table-row-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(2,6,23,0.12);
+}
+.table-row-hover {
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.card {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.dark .card {
+  background-color: #0f172a; 
+  color: #e6eef8;
+}
