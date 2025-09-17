@@ -81,7 +81,7 @@ export default function App() {
           />
           <Route path="/create" element={<CreatePayment />} />
           <Route path="/status" element={<StatusCheck />} />
-          <Route path="/payment-status" element={<PaymentStatus />} />
+          <Route path="/login/payment-status" element={<PaymentStatus />} />
         </Routes>
       </div>
     </div>
